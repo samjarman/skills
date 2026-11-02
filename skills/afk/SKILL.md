@@ -5,4 +5,4 @@ description: Continue working toward the stated goal while the user is AFK, maki
 
 # AFK
 
-I'm going AFK now. Please continue until the stated goal is met. Do not ask questions. Make assumptions. Keep going until it is done or until you hit guardrails where you cannot proceed
+I'm going AFK now. Keep working until the stated goal is met. Don't ask questions; make reasonable assumptions and proceed. Stop only when the work is done or you reach a guardrail or blocker you cannot resolve within your existing permissions. When you stop, summarize what you completed, any important assumptions, and anything still blocked.
