@@ -34,6 +34,7 @@ The CLI installs into the current project by default. Add `-g` for a user-wide i
 
 | Skill | What it does |
 | --- | --- |
+| [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. |
 | [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. |
 | [write-skill](skills/write-skill/SKILL.md) | Turn a repeatable workflow into a focused skill, with useful triggers and room for personal context. |
 
