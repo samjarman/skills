@@ -28,6 +28,21 @@ Examples use `/skill-name` shorthand; use your agent's supported invocation synt
 | [pro-con](skills/pro-con/SKILL.md) | Simplify a suggestion and weigh its pros and cons. Good for vibe coders with decision fatigue. | `/pro-con On using inline CSS vs a dedicated file` |
 | [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. | `/reflect` |
 
+## Make these skills yours
+
+Fork or copy a skill, then add the context you'd otherwise repeat in conversation:
+
+- Link the real resources: your issue tracker, repository, documentation, design system, or runbook. Say which is the source of truth.
+- Name the MCP servers and tool calls you use, including any required parameters. Tell the agent what to do if they're unavailable.
+- Point to relevant files with relative paths, and say what they're relative to: the repository root or the skill directory.
+- Give the actual commands for linting, formatting, builds, and tests, plus what counts as success.
+- Capture your conventions: branch names, PR templates, review expectations, and what a useful final response looks like.
+- Clarify inputs and boundaries: what the user must supply, what can be inferred, and whether the skill should suggest changes, edit files, push, or open a PR.
+
+For example, your version of `fix-ci` could name the MCP tool for reading failed jobs, point to the CI configuration, and specify the command that reproduces the check locally.
+
+Add detail when it changes what the agent does. Try the skill on a real task, notice where you have to correct it, and fold that lesson back in. Keep credentials out of the skill, and keep private context in your own copy.
+
 ## Install
 
 With Node.js and npm available, list the skills first:
