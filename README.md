@@ -16,6 +16,7 @@ You can also install them with [Vercel's skills CLI](https://github.com/vercel-l
 | --- | --- |
 | [afk](skills/afk/SKILL.md) | Keep working toward the stated goal while you are away, making assumptions until done or blocked by guardrails. |
 | [diff-minimisation](skills/diff-minimisation/SKILL.md) | Review the pull request or merge request diff and ask whether every change earns its place. |
+| [feedback](skills/feedback/SKILL.md) | Turn a specific correction into an update to agent instructions so the lesson carries forward. |
 | [fix-ci](skills/fix-ci/SKILL.md) | Read CI logs through MCP, reproduce the failure locally, then fix, verify, and push. |
 | [go-harder](skills/go-harder/SKILL.md) | Investigate unverified claims and return with a researched, grounded opinion. |
 | [golden-loop](skills/golden-loop/SKILL.md) | Supply a goal and a deterministic check, then let the agent keep working until the check succeeds. |
