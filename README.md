@@ -13,19 +13,19 @@ Yes, install them and try them. Then fork this repo into your own skillset and t
 With Node.js and npm available, list the skills first:
 
 ```sh
-npx skills add samjarman/agent-skills --list
+npx skills add samjarman/skills --list
 ```
 
 Choose skills and agents interactively:
 
 ```sh
-npx skills add samjarman/agent-skills
+npx skills add samjarman/skills
 ```
 
 Or install one skill:
 
 ```sh
-npx skills add samjarman/agent-skills --skill reflect
+npx skills add samjarman/skills --skill reflect
 ```
 
 The CLI installs into the current project by default. Add `-g` for a user-wide installation.
@@ -76,7 +76,7 @@ Try the skill on a real task, revise it based on what happens, and add it to the
 3. Commit your changes, then install from your own repository:
 
    ```sh
-   npx skills add YOUR-USERNAME/agent-skills
+   npx skills add YOUR-USERNAME/skills
    ```
 
 Point future installs at your fork so your customizations stay with you.
