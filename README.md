@@ -15,6 +15,7 @@ You can also install them with [Vercel's skills CLI](https://github.com/vercel-l
 | Skill | What it does |
 | --- | --- |
 | [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. |
+| [pro-con](skills/pro-con/SKILL.md) | Simplify a suggestion and weigh its pros and cons. Good for vibe coders with decision fatigue. |
 | [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. |
 
 ## Install
