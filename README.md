@@ -15,6 +15,7 @@ You can also install them with [Vercel's skills CLI](https://github.com/vercel-l
 | Skill | What it does |
 | --- | --- |
 | [afk](skills/afk/SKILL.md) | Keep working toward the stated goal while you are away, making assumptions until done or blocked by guardrails. |
+| [diff-minimisation](skills/diff-minimisation/SKILL.md) | Review the pull request or merge request diff and ask whether every change earns its place. |
 | [go-harder](skills/go-harder/SKILL.md) | Investigate unverified claims and return with a researched, grounded opinion. |
 | [meet-brief](skills/meet-brief/SKILL.md) | Compare the branch diff with the ticket and explain whether the work meets the brief. |
 | [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. |
