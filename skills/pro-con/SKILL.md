@@ -5,4 +5,4 @@ description: Simplify the current suggestion and explain the pros and cons of th
 
 # Pro-con
 
-I'm struggling to follow your current suggestion. Explain the decision in plain language, compare the pros and cons of the options, and recommend one with a brief explanation of why.
+Use the decision or options supplied with this invocation, or your current suggestion if none are supplied. Explain the decision in plain language, compare the pros and cons of the options, and recommend one with a brief explanation of why.

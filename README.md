@@ -16,17 +16,17 @@ Examples use `/skill-name` shorthand; use your agent's supported invocation synt
 
 | Skill | What it does | Invoke like… |
 | --- | --- | --- |
-| [afk](skills/afk/SKILL.md) | Keep working toward the stated goal while you are away, making assumptions until done or blocked by guardrails. | `/afk` after agreeing on the goal |
-| [diff-minimisation](skills/diff-minimisation/SKILL.md) | Review the pull request or merge request diff and ask whether every change earns its place. | `/diff-minimisation` on a branch with an open PR or MR |
+| [afk](skills/afk/SKILL.md) | Keep working toward the stated goal while you are away, making assumptions until done or blocked by guardrails. | `/afk Make all buttons green now` |
+| [diff-minimisation](skills/diff-minimisation/SKILL.md) | Review the pull request or merge request diff and ask whether every change earns its place. | `/diff-minimisation` |
 | [feedback](skills/feedback/SKILL.md) | Turn a specific correction into an update to agent instructions so the lesson carries forward. | `/feedback You just checked Jira when we use GitLab issues instead.` |
-| [fix-ci](skills/fix-ci/SKILL.md) | Read CI logs through MCP, reproduce the failure locally, then fix, verify, and push. | `/fix-ci` on the branch with failing CI |
-| [go-harder](skills/go-harder/SKILL.md) | Investigate unverified claims and return with a researched, grounded opinion. | `/go-harder` after an answer with unverified claims |
+| [fix-ci](skills/fix-ci/SKILL.md) | Read CI logs through MCP, reproduce the failure locally, then fix, verify, and push. | `/fix-ci` |
+| [go-harder](skills/go-harder/SKILL.md) | Investigate unverified claims and return with a researched, grounded opinion. | `/go-harder` — optionally add: `I wanted to know even more about <x>` |
 | [golden-loop](skills/golden-loop/SKILL.md) | Supply a goal and a deterministic check, then let the agent keep working until the check succeeds. | `/golden-loop Goal: fix the login bug. Check: npm run test:login passes.` |
-| [meet-brief](skills/meet-brief/SKILL.md) | Compare the branch diff with the ticket and explain whether the work meets the brief. | `/meet-brief Check this branch against issue #123.` |
-| [mine-code-reviews](skills/mine-code-reviews/SKILL.md) | Turn lessons from a year of code reviews into agent guidance and automated checks, with PRs or MRs for the improvements. | `/mine-code-reviews` in the repository to review |
-| [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. | `/open-code-review` when your branch is ready for review |
-| [pro-con](skills/pro-con/SKILL.md) | Simplify a suggestion and weigh its pros and cons. Good for vibe coders with decision fatigue. | `/pro-con` after a suggestion you want explained |
-| [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. | `/reflect` after a session with corrections or friction |
+| [meet-brief](skills/meet-brief/SKILL.md) | Compare the branch diff with the ticket and explain whether the work meets the brief. | `/meet-brief` — optionally supply a ticket: `/meet-brief ABC-123` |
+| [mine-code-reviews](skills/mine-code-reviews/SKILL.md) | Turn lessons from a year of code reviews into agent guidance and automated checks, with PRs or MRs for the improvements. | `/mine-code-reviews` — provide the repository URL if asked |
+| [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. | `/open-code-review` |
+| [pro-con](skills/pro-con/SKILL.md) | Simplify a suggestion and weigh its pros and cons. Good for vibe coders with decision fatigue. | `/pro-con On using inline CSS vs a dedicated file` |
+| [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. | `/reflect` |
 
 ## Install
 
