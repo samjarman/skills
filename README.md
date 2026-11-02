@@ -18,6 +18,7 @@ You can also install them with [Vercel's skills CLI](https://github.com/vercel-l
 | [diff-minimisation](skills/diff-minimisation/SKILL.md) | Review the pull request or merge request diff and ask whether every change earns its place. |
 | [fix-ci](skills/fix-ci/SKILL.md) | Read CI logs through MCP, reproduce the failure locally, then fix, verify, and push. |
 | [go-harder](skills/go-harder/SKILL.md) | Investigate unverified claims and return with a researched, grounded opinion. |
+| [golden-loop](skills/golden-loop/SKILL.md) | Supply a goal and a deterministic check, then let the agent keep working until the check succeeds. |
 | [meet-brief](skills/meet-brief/SKILL.md) | Compare the branch diff with the ticket and explain whether the work meets the brief. |
 | [mine-code-reviews](skills/mine-code-reviews/SKILL.md) | Turn lessons from a year of code reviews into agent guidance and automated checks, with PRs or MRs for the improvements. |
 | [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. |
