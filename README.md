@@ -25,7 +25,7 @@ npx skills add samjarman/agent-skills
 Or install one skill:
 
 ```sh
-npx skills add samjarman/agent-skills --skill write-skill
+npx skills add samjarman/agent-skills --skill reflect
 ```
 
 The CLI installs into the current project by default. Add `-g` for a user-wide installation.
@@ -34,6 +34,7 @@ The CLI installs into the current project by default. Add `-g` for a user-wide i
 
 | Skill | What it does |
 | --- | --- |
+| [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. |
 | [write-skill](skills/write-skill/SKILL.md) | Turn a repeatable workflow into a focused skill, with useful triggers and room for personal context. |
 
 ## Write your own
