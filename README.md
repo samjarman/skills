@@ -1,12 +1,21 @@
 # Sam's skills
 
-A growing collection of agent skills, installable with [Vercel's skills CLI](https://github.com/vercel-labs/skills).
+Short prompts I've developed through work, shared to give you ideas for your own skills.
 
-## Start here, then make them yours
+## More inspiration than installation
 
-These skills are a starting point. No good skill can be generic enough to work well for everyone: your projects, tools, standards, and preferences all shape what useful instructions look like.
+These skills are a starting point. They're deliberately brief: enough to get the idea across so you can adapt it to how you work.
 
-Yes, install them and try them. Then fork this repo into your own skillset and tweak from there. Keep what helps, change what doesn't fit, and add the context that only you have. The goal is a skillset that reflects how you actually work.
+No good skill can be generic enough for everyone. Your projects, tools, standards, and preferences shape what useful instructions look like. Read these, borrow the ideas, and write your own versions. You don't need to install anything to get value from them.
+
+You can also install them with [Vercel's skills CLI](https://github.com/vercel-labs/skills). If one is useful, fork it into your own skillset and tweak it from there. Keep what helps and add the context that only you have.
+
+## Available skills
+
+| Skill | What it does |
+| --- | --- |
+| [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. |
+| [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. |
 
 ## Install
 
@@ -29,13 +38,6 @@ npx skills add samjarman/skills --skill reflect
 ```
 
 The CLI installs into the current project by default. Add `-g` for a user-wide installation.
-
-## Available skills
-
-| Skill | What it does |
-| --- | --- |
-| [open-code-review](skills/open-code-review/SKILL.md) | Run checks, fix failures, open a pull request or merge request, and suggest reviewers without assigning them. |
-| [reflect](skills/reflect/SKILL.md) | Review the conversation and update AI guidance with lessons from corrections, friction, and tool failures. |
 
 ## Write your own
 
