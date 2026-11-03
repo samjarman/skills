@@ -8,7 +8,7 @@ These skills are a starting point. They're deliberately brief: enough to get the
 
 No good skill can be generic enough for everyone. Your projects, tools, standards, and preferences shape what useful instructions look like. Read these, borrow the ideas, and write your own versions. You don't need to install anything to get value from them.
 
-You can also install them with [Vercel's skills CLI](https://github.com/vercel-labs/skills). If one is useful, fork it into your own skillset and tweak it from there. Keep what helps and add the context that only you have.
+If an idea is useful, fork or copy it into your own skillset and tweak it from there. Keep what helps and add the context that only you have.
 
 ## Available skills
 
@@ -42,28 +42,6 @@ Fork or copy a skill, then add the context you'd otherwise repeat in conversatio
 For example, your version of `fix-ci` could name the MCP tool for reading failed jobs, point to the CI configuration, and specify the command that reproduces the check locally.
 
 Add detail when it changes what the agent does. Try the skill on a real task, notice where you have to correct it, and fold that lesson back in. Keep credentials out of the skill, and keep private context in your own copy.
-
-## Install
-
-With Node.js and npm available, list the skills first:
-
-```sh
-npx skills add samjarman/skills --list
-```
-
-Choose skills and agents interactively:
-
-```sh
-npx skills add samjarman/skills
-```
-
-Or install one skill:
-
-```sh
-npx skills add samjarman/skills --skill reflect
-```
-
-The CLI installs into the current project by default. Add `-g` for a user-wide installation.
 
 ## Write your own
 
@@ -108,6 +86,28 @@ Try the skill on a real task, revise it based on what happens, and add it to the
    ```
 
 Point future installs at your fork so your customizations stay with you.
+
+## If you really want to install them as is
+
+I wouldn't recommend using these unchanged. Making them yours is the point. But if you still want to try them as is, use [Vercel's skills CLI](https://github.com/vercel-labs/skills). With Node.js and npm available, list the skills first:
+
+```sh
+npx skills add samjarman/skills --list
+```
+
+Choose skills and agents interactively:
+
+```sh
+npx skills add samjarman/skills
+```
+
+Or install one skill:
+
+```sh
+npx skills add samjarman/skills --skill reflect
+```
+
+The CLI installs into the current project by default. Add `-g` for a user-wide installation.
 
 ## License
 
